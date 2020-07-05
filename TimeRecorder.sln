@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeRecorder.MonthlyReportCreater", "TimeRecorder.MonthlyReportGenerator\TimeRecorder.MonthlyReportCreater.csproj", "{480402B2-8BB6-4323-BEEF-A1031E569C54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeRecorder.TimeCardCreater", "TimeRecorder.TimeCardCreater\TimeRecorder.TimeCardCreater.csproj", "{8D2A2848-E702-447A-8023-0C2B4B723AA7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeRecorder.Core", "TimeRecorder.Core\TimeRecorder.Core.csproj", "{C50CBC72-A470-4240-9AC8-6C9BD23933BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeRecorder.TimeCardChangeFeedDispatcher", "TimeRecorder.TimeCardChangeFeedDispatcher\TimeRecorder.TimeCardChangeFeedDispatcher.csproj", "{15E6BB17-3637-4108-9C9E-3B56FE2C1921}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeRecorder.MonthStartPublisher", "TimeRecorder.MonthStartPublisher\TimeRecorder.MonthStartPublisher.csproj", "{5E2B73B3-AC59-4534-8914-D56B7DB6DBF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeRecorder.TimeCardWriter", "TimeRecorder.TimeCardWriter\TimeRecorder.TimeCardWriter.csproj", "{D23E783D-1D7B-4877-9FC0-46C20E95304A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{480402B2-8BB6-4323-BEEF-A1031E569C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{480402B2-8BB6-4323-BEEF-A1031E569C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{480402B2-8BB6-4323-BEEF-A1031E569C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{480402B2-8BB6-4323-BEEF-A1031E569C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2A2848-E702-447A-8023-0C2B4B723AA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2A2848-E702-447A-8023-0C2B4B723AA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2A2848-E702-447A-8023-0C2B4B723AA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2A2848-E702-447A-8023-0C2B4B723AA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C50CBC72-A470-4240-9AC8-6C9BD23933BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50CBC72-A470-4240-9AC8-6C9BD23933BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50CBC72-A470-4240-9AC8-6C9BD23933BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50CBC72-A470-4240-9AC8-6C9BD23933BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E6BB17-3637-4108-9C9E-3B56FE2C1921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E6BB17-3637-4108-9C9E-3B56FE2C1921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E6BB17-3637-4108-9C9E-3B56FE2C1921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E6BB17-3637-4108-9C9E-3B56FE2C1921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2B73B3-AC59-4534-8914-D56B7DB6DBF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2B73B3-AC59-4534-8914-D56B7DB6DBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2B73B3-AC59-4534-8914-D56B7DB6DBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2B73B3-AC59-4534-8914-D56B7DB6DBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23E783D-1D7B-4877-9FC0-46C20E95304A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23E783D-1D7B-4877-9FC0-46C20E95304A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23E783D-1D7B-4877-9FC0-46C20E95304A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23E783D-1D7B-4877-9FC0-46C20E95304A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {314F6368-5F23-44FE-AB99-225D259110BC}
+	EndGlobalSection
+EndGlobal
